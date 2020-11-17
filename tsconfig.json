@@ -1,0 +1,11 @@
+{
+  //typescript 에게 어떻게 javascript로 변환하는지 알려주면서 옵션을 준다.
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2015", //어떤 버전의 javascript로 컴파일 되고 싶은지.
+    "sourceMap": true
+  },
+
+  "include": ["index.ts"], //어떤 파일이 컴파일과정에서 필요한지 배열에 넣으면된다.
+  "exclude": ["node_modules"] // 제외할 파일 .
+}

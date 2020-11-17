@@ -1,0 +1,25 @@
+{
+  "name": "typeScript_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js ",
+    "prestart": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jun-gyu/typeScript_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jun-gyu/typeScript_practice/issues"
+  },
+  "homepage": "https://github.com/jun-gyu/typeScript_practice#readme",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  }
+}
