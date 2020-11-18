@@ -3,9 +3,10 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ES2015", //어떤 버전의 javascript로 컴파일 되고 싶은지.
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir": "dist" //컴파일된 모든 파일들은 이쪽으로 들어간다.
   },
 
-  "include": ["index.ts"], //어떤 파일이 컴파일과정에서 필요한지 배열에 넣으면된다.
+  "include": ["src/**/*"], //어떤 파일이 컴파일과정에서 필요한지 배열에 넣으면된다.
   "exclude": ["node_modules"] // 제외할 파일 .
 }
